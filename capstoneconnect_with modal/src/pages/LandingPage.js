@@ -4,6 +4,10 @@ import logo from '../assets/logo.png';
 import '../css/MicrosoftAuthModal.css'; // Adjust the path as necessary
 import hero from '../assets/hero.png';
 import vyn from '../assets/vyn.jpg';
+import gerard from '../assets/gerard.png';
+import david from '../assets/david.jpg';
+import harold from '../assets/harold.jpg';
+import tovi from '../assets/tovi.jpg';
 import { FaGithub, FaFigma, FaFacebook } from 'react-icons/fa';
 
 const LandingPage = () => {
@@ -23,7 +27,7 @@ const LandingPage = () => {
           
           <div className="ms-brand-section">
             <div className="ms-brand-logo">
-              <img src="https://placehold.co/180x180/CA9F58/267987?text=CC" alt="Capstone Connect Logo" />
+              <img src={logo} alt="Capstone Connect Logo" />
             </div>
             <div className="ms-brand-title">
               <div className="ms-title capstone">Capstone</div>
@@ -142,9 +146,9 @@ const LandingPage = () => {
               <p className="Role">Frontend Developer</p>
               <p className="Bio">Specializing in responsive design and user experience.</p>
               <div className="SocialIcons">
-                <a href="#"><FaFigma /></a>
-                <a href="#"><FaGithub /></a>
-                <a href="#"><FaFacebook /></a>
+                <a href="https://www.figma.com/@jhovynnaldricha"><FaFigma /></a>
+                <a href="https://github.com/vyn23232"><FaGithub /></a>
+                <a href="https://web.facebook.com/jhovynnaldrich.apurado/"><FaFacebook /></a>
               </div>
             </div>
           </div>
@@ -153,33 +157,33 @@ const LandingPage = () => {
           <div className="TeamMember">
             <div className="MemberImage">
               <span className="MemberRole">Frontend</span>
-              <img src="https://placehold.co/400x400" alt="Team Member" />
+              <img src={harold} alt="Team Member" />
             </div>
             <div className="MemberInfo">
               <h3>Harold Destura</h3>
               <p className="Role">Frontend Developer</p>
               <p className="Bio">Expert in modern JavaScript frameworks.</p>
               <div className="SocialIcons">
-              <a href="#"><FaFigma /></a>
-                <a href="#"><FaGithub /></a>
-                <a href="#"><FaFacebook /></a>
+              <a href="https://www.figma.com/@arutsedharold"><FaFigma /></a>
+                <a href="https://github.com/harold0t1"><FaGithub /></a>
+                <a href="https://www.facebook.com/harold.destura/"><FaFacebook /></a>
               </div>
             </div>
           </div>
 
           <div className="TeamMember">
             <div className="MemberImage">
-              <span className="MemberRole">Backend</span>
-              <img src="https://placehold.co/400x400" alt="Team Member" />
+              <span className="MemberRole">Database</span>
+              <img src={tovi} alt="Team Member" />
             </div>
             <div className="MemberInfo">
               <h3>Tovi Joshua Hermosisima</h3>
               <p className="Role">Backend Developer</p>
               <p className="Bio">Building robust server-side architectures.</p>
               <div className="SocialIcons">
-              <a href="#"><FaFigma /></a>
-                <a href="#"><FaGithub /></a>
-                <a href="#"><FaFacebook /></a>
+              <a href="https://www.figma.com/@tovijoshua"><FaFigma /></a>
+                <a href="https://github.com/Choovyy"><FaGithub /></a>
+                <a href="https://www.facebook.com/tobias.joshuu"><FaFacebook /></a>
               </div>
             </div>
           </div>
@@ -187,16 +191,16 @@ const LandingPage = () => {
           <div className="TeamMember">
             <div className="MemberImage">
               <span className="MemberRole">Backend</span>
-              <img src="https://placehold.co/400x400" alt="Team Member" />
+              <img src={gerard} alt="Team Member" />
             </div>
             <div className="MemberInfo">
               <h3>John Gerard Donaire</h3>
               <p className="Role">Backend Developer</p>
               <p className="Bio">Database expert ensuring optimized systems.</p>
               <div className="SocialIcons">
-              <a href="#"><FaFigma /></a>
-                <a href="#"><FaGithub /></a>
-                <a href="#"><FaFacebook /></a>
+              <a href="https://www.figma. com/@johngerarddonai"><FaFigma /></a>
+                <a href="https://github.com/haloimnotcode"><FaGithub /></a>
+                <a href="https://www.facebook. com/gerarddonaire"><FaFacebook /></a>
               </div>
             </div>
           </div>
@@ -204,16 +208,16 @@ const LandingPage = () => {
           <div className="TeamMember">
             <div className="MemberImage">
               <span className="MemberRole">Frontend</span>
-              <img src="https://placehold.co/400x400" alt="Team Member" />
+              <img src={david} alt="Team Member" />
             </div>
             <div className="MemberInfo">
               <h3>John David Calimpong</h3>
               <p className="Role">Frontend Developer</p>
               <p className="Bio">Creating beautiful, accessible interfaces.</p>
               <div className="SocialIcons">
-              <a href="#"><FaFigma /></a>
-                <a href="#"><FaGithub /></a>
-                <a href="#"><FaFacebook /></a>
+              <a href="https://www.figma.com/@johndavid4"><FaFigma /></a>
+                <a href="https://github.com/calimps115646"><FaGithub /></a>
+                <a href="https://www.facebook.com/johncalimps"><FaFacebook /></a>
               </div>
             </div>
           </div>

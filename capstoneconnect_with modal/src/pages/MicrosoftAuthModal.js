@@ -1,6 +1,6 @@
 import React from 'react';
 import '.css/MicrosoftAuthModal.css'; // Adjust the path as necessary
-//import logo from '../assets/logo.png'; // Adjust the path as necessary
+import logo from '../assets/logo.png'; // Adjust the path as necessary
 //import hero from '../assets/hero.png'; // Adjust the path as necessary  
 
 const MicrosoftAuthModal = ({ isOpen, onClose }) => {
@@ -13,7 +13,7 @@ const MicrosoftAuthModal = ({ isOpen, onClose }) => {
         
         <div className="ms-brand-section">
           <div className="ms-brand-logo">
-            <img src="https://placehold.co/180x180/CA9F58/267987?text=CC" alt="Capstone Connect Logo" />
+            <img src={logo} alt="Capstone Connect Logo" />
           </div>
           <div className="ms-brand-title">
             <div className="ms-title capstone">Capstone</div>

@@ -82,13 +82,14 @@
   }
   
   .ms-title {
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     font-weight: 600;
     line-height: 1.2;
-    font-family: 'Inter', sans-serif;
   }
   
   .ms-title.capstone {
+    font-family: 'Poppins', sans-serif;
     color: #CA9F58;
   }
   
@@ -106,11 +107,11 @@
   }
   
   .ms-sign-in-title {
+    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 40px;
     color: #333;
-    font-family: 'Inter', sans-serif;
   }
   
   .ms-divider {
@@ -150,18 +151,18 @@
   }
   
   .ms-microsoft-text {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
     color: #333;
-    font-family: 'Inter', sans-serif;
   }
   
   .ms-alternative-options {
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     text-align: center;
     font-size: 14px;
     color: #666;
-    font-family: 'Inter', sans-serif;
   }
   
   .ms-alternative-link {
