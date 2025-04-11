@@ -243,7 +243,6 @@
 
 /* Matching Algorithm Section */
 .MidPage {
-
   margin: auto;
   padding: 120px;
   background-color: #ffffff; /* Set background to white */
@@ -267,7 +266,7 @@
 
 .Wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 20px;
   margin-top: 60px;
   justify-content: center;
@@ -311,7 +310,7 @@
 /* third section */
 .AboutPage {
   background-color: #FFFFFF;
-  padding: 80px 20px;
+  padding: 60px 20px;
   color: #191919;
 }
 
